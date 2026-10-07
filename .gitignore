@@ -1,0 +1,29 @@
+# 依赖与构建产物
+node_modules/
+dist/
+build/
+.cache/
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志与临时文件
+*.log
+npm-debug.log*
+yarn-error.log*
+tmp/
+.tmp/
+*.tmp
+
+# 环境变量（如果以后接入真实 AI 接口，密钥放这里，不要提交）
+.env
+.env.local
+.env.*.local
